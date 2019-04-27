@@ -1,0 +1,116 @@
+body{
+    font-family:arial;
+    margin: 0;
+}
+
+.header{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fc0707+0,8256bc+92 */
+    background: #fc0707; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #fc0707 0%, #8256bc 92%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #fc0707 0%,#8256bc 92%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #fc0707 0%,#8256bc 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc0707', endColorstr='#8256bc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    width: 100%;
+    padding-left:100px;
+    color: whitesmoke;
+    
+    
+    
+}
+.imagen{
+   
+    display: inline-block;
+    position: relative;
+    top:50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+   
+}
+.dados{
+    
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+}
+.dados-linha{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+div.dados-linha b{
+    opacity: 0.5;
+    text-transform: uppercase;
+    
+}
+.titulo{
+    margin-bottom: 0;
+    
+   
+
+}
+
+.profisao{
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+   
+}
+
+h4{
+
+}
+
+.text{
+    margin-left: 100px;
+    margin-right: 300px;
+    font-size: 20px;
+    font-family:"Arial";
+}
+.titulo{
+   
+}
+
+.foto{
+    
+    width: 450px;
+    height: 350px;
+    border-radius: 5px 5px 5px 5px;
+}
+.eu{
+    
+    padding-top: 50px;
+}
+h2{
+    text-transform:uppercase; 
+}
+hr{
+   opacity: 0.3;
+}
+.button{
+    padding:15px;
+    border-radius: 20px;
+    background: purple;
+    color: white;
+    text-decoration: none;
+    transition: linear all 200ms;
+}
+.button:hover{
+    opacity: 0.5;
+    background: red;
+    
+}
